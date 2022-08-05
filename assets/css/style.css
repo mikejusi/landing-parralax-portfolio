@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-family: 'Raleway';
+}
+
+.d-flex{
+    display: flex;
+}
+
+header{
+    padding: 20px 6px;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.logo{
+    font-size: 42px;
+}
+
+.nav{
+    font-weight: bold;
+    align-items: center;
+    height: 57px;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    padding: 0 4px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: rgb(192, 192, 192);
+    transition: 0.3s;
+}
+
+.btn{
+    
+}
+
+.bl{
+    background-color: #666593;
+}
+
+.bl2{
+    background-color: #333A65;
+}
+
+.bl3{
+    border: 1px solid white;
+    clip-path: polygon(26% 30%, 26% 66%, 56% 64%, 66% 49%, 68% 28%);
+}
