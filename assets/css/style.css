@@ -26,6 +26,14 @@ body{
     width: 45%;
 }
 
+.w-90{
+    width: 80%;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
 .nav .w-45{
     text-align: center;
 }
@@ -54,7 +62,7 @@ a{
 }
 
 .w-45 .nav-link{
-    padding: 0 100px!important;
+    margin: 0 100px!important;
 }
 
 .nav-link{
@@ -68,8 +76,53 @@ a{
     transition: 0.3s;
 }
 
-.btn{
-    
+.text-center{
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+    margin: 1rem 2rem;
+    width: 16rem;
+    color: white;
+    border-radius: 0.25rem;
+    border: 2px solid #223031;
+    padding: 0.75rem;
+}
+
+.card:hover{
+    background-color: #00a4a6;
+    transition: 0.3s;
+    border: 2px solid rgb(1, 110, 112);
+    -moz-box-shadow: 0 0 10px #00a4a6;
+    -webkit-box-shadow: 0 0 10px #00a4a6;
+    box-shadow: 0 0 10px #00a4a6;
+}
+
+.card__wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-text h5{
+    margin: 0 0 1rem 0;
+    font-size: 1.6rem;
+}
+
+.card-text p{
+    color: #ffffffa3;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+
+i{
+    font-size: 3rem;
+    margin: 30px 0;
 }
 
 .bl{
@@ -83,4 +136,10 @@ a{
 .bl3{
     border: 1px solid white;
     clip-path: polygon(26% 30%, 26% 66%, 56% 64%, 66% 49%, 68% 28%);
+}
+
+/* adaptive */
+
+@media (max-width: 650px) {
+
 }
