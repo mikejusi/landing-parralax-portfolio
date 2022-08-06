@@ -126,6 +126,7 @@ h2{
 }
 
 .scroll__top{
+    cursor: pointer;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -136,6 +137,7 @@ h2{
     -moz-box-shadow: 0 0 10px #ffffff;
     -webkit-box-shadow: 0 0 10px #ffffff;
     box-shadow: 0 0 10px #ffffff;
+    z-index: 9999;
 }
 
 .scroll__top i{
