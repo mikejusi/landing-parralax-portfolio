@@ -91,7 +91,7 @@ h2{
     width: 16rem;
     color: white;
     border-radius: 0.25rem;
-    border: 2px solid #223031;
+    border: 2px solid #065f5d;
     padding: 0.75rem;
 }
 
@@ -120,22 +120,26 @@ h2{
     line-height: 1.7rem;
 }
 
-i{
+.head i{
     font-size: 3rem;
     margin: 30px 0;
 }
 
-.bl{
-    background-color: #666593;
+.scroll__top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.8rem 1rem;
+    background-color: white;
+    width: fit-content;
+    border-radius: 50%;
+    -moz-box-shadow: 0 0 10px #ffffff;
+    -webkit-box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 10px #ffffff;
 }
 
-.bl2{
-    background-color: #333A65;
-}
-
-.bl3{
-    border: 1px solid white;
-    clip-path: polygon(26% 30%, 26% 66%, 56% 64%, 66% 49%, 68% 28%);
+.scroll__top i{
+    font-size: 1.5rem;
 }
 
 /* adaptive */
