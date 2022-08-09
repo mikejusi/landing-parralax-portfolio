@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: 'Raleway';
+    margin: 0;
     /*
     * Для эксплорера
     */
@@ -81,6 +82,8 @@ a{
 }
 
 h2{
+    margin: 0px;
+    padding: 1.2rem;
     color: white;
     font-size: 2rem;
 }
@@ -155,6 +158,14 @@ h2{
 ::-webkit-scrollbar-thumb{
     background-color: rgb(255, 255, 255);
     border-radius: 0.25rem;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-white h2{
+    color: black;
 }
 
 /* adaptive */
