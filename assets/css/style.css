@@ -168,6 +168,24 @@ h2{
     color: black;
 }
 
+.zg{
+    margin: 0 auto;
+    text-align: -webkit-center;
+    width: 300px;
+    font-size: 1.1rem;
+}
+
+.social-media{
+    font-size: 2rem;
+    padding: 1rem 0;
+    place-content: center;
+    gap: 30px;
+}
+
+.social-media a{
+    color: black;
+}
+
 /* adaptive */
 
 @media (max-width: 650px) {
