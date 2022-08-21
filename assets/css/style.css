@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #1F1D2B;
     font-family: 'Raleway';
     margin: 0;
     /*
@@ -21,6 +21,28 @@ body{
     * Для Сафари и Хрома
     */
    -webkit-user-select: none;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 60%;
+    top: 138px;
+    filter: blur(90px);
+    background-color: #FB37FF;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 80%;
+    top: 550px;
+    background-color: #18B2DE;
+    filter: blur(80px);
 }
 
 .w-45{
@@ -160,15 +182,16 @@ h2{
     border-radius: 0.25rem;
 }
 
-.bg-white{
+/* .bg-white{
     background-color: white;
-}
+} */
 
 .bg-white h2{
-    color: black;
+    /* color: black; */
 }
 
 .zg{
+    color: white;
     margin: 0 auto;
     text-align: -webkit-center;
     width: 300px;
@@ -176,14 +199,42 @@ h2{
 }
 
 .social-media{
+    position: relative;
+    grid-template-columns: auto auto auto auto;
     font-size: 2rem;
     padding: 1rem 0;
     place-content: center;
     gap: 30px;
 }
 
+.social-media::before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    top: -30px;
+    filter: blur(80px);
+    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+}
+
+.box__social{
+    background: rgba(255, 255, 255, 0.095);
+    box-shadow: inset 2.01px -2.01px 20px rgb(214 214 214 / 17%), inset -3.01333px 3.01333px 3.01333px rgb(255 255 255 / 39%);
+    backdrop-filter: blur(74.4293px);
+    width: 100px;
+    height: 100px;
+    border-radius: 18px;
+    text-align-last: center;
+}
+
 .social-media a{
-    color: black;
+    color: #bdbdbd;
+    padding: 34px;
+}
+
+.social-media a:hover{
+    color: #eeeeee;
+    padding: 34px;
 }
 
 /* adaptive */
