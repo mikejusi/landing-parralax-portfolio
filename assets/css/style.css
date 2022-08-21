@@ -105,9 +105,12 @@ a{
 
 h2{
     margin: 0px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
     padding: 1.2rem;
-    color: white;
-    font-size: 2rem;
 }
 
 .card{
@@ -123,12 +126,12 @@ h2{
 }
 
 .card:hover{
-    background-color: #00a4a6;
+    background-color: #18B2DE;
     transition: 0.3s;
     border: 1px solid rgb(1, 110, 112);
-    -moz-box-shadow: 0 0 10px #00a4a6;
-    -webkit-box-shadow: 0 0 10px #00a4a6;
-    box-shadow: 0 0 10px #00a4a6;
+    -moz-box-shadow: 0 0 10px #18B2DE;
+    -webkit-box-shadow: 0 0 10px #18B2DE;
+    box-shadow: 0 0 10px #18B2DE;
 }
 
 .card__wrap{
@@ -193,11 +196,17 @@ h2{
 }
 
 .zg{
-    color: white;
-    margin: 0 auto;
+    margin: 0px;
+    padding: 0 16px;
+    align-self: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: rgb(226, 226, 226);
     text-align: -webkit-center;
-    width: 300px;
-    font-size: 1.1rem;
 }
 
 .social-media{
@@ -235,6 +244,7 @@ h2{
 }
 
 .social-media a:hover{
+    transition: 0.3s;
     color: #eeeeee;
     padding: 34px;
 }
